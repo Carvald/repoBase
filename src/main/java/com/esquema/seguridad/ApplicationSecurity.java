@@ -51,6 +51,16 @@ public class ApplicationSecurity extends WebSecurityConfigurerAdapter {
                     //.formLogin();
                 /********************** Manejo de sesión y autenticación ***************************************
                 * Fin */
+            
+                /* Inicio
+                 *********************** Manejo de sesión y autenticación **************************************/
+                http.authorizeRequests().antMatchers("/").permitAll().and()
+                    .authorizeRequests().antMatchers("/h2/**","/H2/**").permitAll();
+                http.csrf().disable();
+                http.headers().frameOptions().disable();
+                /********************** Manejo de sesión y autenticación ***************************************
+                * Fin */
+                
                 
                 /* Inicio
                  *********************** Hace que el request sea solo por HTTPS **************************************

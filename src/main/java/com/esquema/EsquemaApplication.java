@@ -153,7 +153,7 @@ public class EsquemaApplication {
         * Fin */
         
         /* Inicio
-        ********************** Configuración de Seguridad ******************************************
+        ********************** Configuración de Seguridad ******************************************/
 	@Bean
 	public WebSecurityConfigurerAdapter webSecurityConfigurerAdapter() {
             return new ApplicationSecurity();

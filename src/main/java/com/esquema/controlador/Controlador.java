@@ -38,7 +38,7 @@ public class Controlador {
 	}
         */
         
-	@RequestMapping("/")
+	@RequestMapping("/esquema")
 	public String index() throws Exception {
             return "index";
 	}
