@@ -34,7 +34,7 @@ public class EsquemaApplication {
         private Encr encr;
         
         /* Inicio
-        ********************** Configuración para el JDBC ******************************************/
+        ********************** Configuración para el JDBC 1.0 ******************************************/
         @Bean
         RoutingDataSource dataSource () {
             
