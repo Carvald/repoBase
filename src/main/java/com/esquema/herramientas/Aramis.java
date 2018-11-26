@@ -5,8 +5,6 @@
  */
 package com.esquema.herramientas;
 
-import com.bbu.middleware.java.esb.ReceptorEmisor;
-import com.bbu.middleware.java.esb.ReceptorEmisorService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
@@ -18,11 +16,11 @@ import org.springframework.stereotype.Component;
 @Component
 public class Aramis {
     
-    public ReceptorEmisor get() {
+   /* public ReceptorEmisor get() {
         
-        ReceptorEmisorService servicio = new ReceptorEmisorService();
+        //ReceptorEmisorService servicio = new ReceptorEmisorService();
         //ReceptorEmisor llamado = servicio.getReceptorEmisor();
-        return servicio.getReceptorEmisor();
+        //return servicio.getReceptorEmisor();
             
-    }
+    }*/
 }
