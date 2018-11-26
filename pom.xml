@@ -57,20 +57,7 @@
                     <artifactId>spring-ldap-core</artifactId>
                     <version>2.2.0.RELEASE</version>
                     <type>jar</type>
-                </dependency>
-                <!-- SQLServer -->
-                <dependency>
-                    <groupId>SQLServer</groupId>
-                    <artifactId>SQLServer</artifactId>
-                    <version>1.2.5</version>
-                </dependency>
-                <!--Aramis-->
-                <dependency>
-                    <groupId>AramisDesarrollo</groupId>
-                    <artifactId>AramisDesarrollo</artifactId>
-                    <version>1.0</version>
-                    <type>jar</type>
-                </dependency>
+                </dependency>               
                 <!--Oracle-->
                 <dependency>
                     <groupId>com.oracle</groupId> 
